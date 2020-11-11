@@ -24,14 +24,11 @@ class Dog
         @@all.clear
     end
     
-    #binding.pry
-
     def self.print_all
-        new_arr = []
         @@all.each do |dog|
-            new_arr << dog.name
+            puts dog.name
         end
-        new_arr.join
+    
         
     end
 end
